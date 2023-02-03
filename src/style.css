@@ -22,6 +22,10 @@ h1 {
   font-size: 16px;
 }
 
+.head {
+  display: flex;
+}
+
 .hello {
   display: none;
 }

@@ -2,31 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-    <h1>Learderboard</h1>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
     <main class="container">
-      <div class="box1">
-        <h2>Recent Scores <button class="ref">Refresh</button></h2>
+        <section class="score">
+            <div class="head">
+                <h2>Recent score</h2><button  id="reload">refresh</button>
+            </div>
             <ul class="scores">
-                <li class="list-item">Name:10</li>
-                <li class="list-item">Name:20</li>
-                <li class="list-item">Name:30</li>
-                <li class="list-item">Name:40</li>
+
             </ul>
-      </div>
-      <div class="box2">
-        <h2>Add your Scores</h2>
-            <form action="">
-                <input type="text" placeholder="Your Name" required>
+        </section>
+
+        <section class="add">
+            <h2>Add your score</h2>
+            <div class="addscore">
+              <form action="" id="add">
+                <input type="text" placeholder="your name" id="name">
                 <br>
-                <input type="text" placeholder="Your Score" required>
+                <input type="number" placeholder="your score" id="score">
                 <br>
-                <button type="submit">Add</button>
-            </form>
-      </div>
+                <button>submit</button>
+              </form>
+            </div>
+
+        </section>
     </main>
+    <footer></footer>
 </body>
 </html>
