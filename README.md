@@ -148,11 +148,8 @@ You can deploy this project using:[Github pages](https://docs.github.com/en/page
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Use API** ('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/wsIOxR0bKz1yTE4Uisg5/scores/)
+- [ ] **Mobile page and desktop page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,21 +183,6 @@ If you like this project, please provide a STAR in
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
