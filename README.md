@@ -39,7 +39,8 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**Leaderboard** This is microverse project
+**Leaderboard** This is microverse project built using HTML, CSS and JavaScript. It is a game app where u can store your scores. This project makes use of API.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,7 +63,8 @@
 
 > Describe between 1-3 key features of the application.
 
-- **Using Webpack for project developement**
+- **Single page web application**
+- **Use API to store and update data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,14 +74,14 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://uchenna-ibute.github.io/Leaderboard/dist/.)
+- [Live Demo Link](https://uchenna-ibute.github.io/Leaderboard/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
+To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
@@ -93,54 +95,38 @@ Clone this repository to your desired folder:
 
 git clone https://https://github.com/Uchenna-ibute/Leaderboard.git
 
+```sh
+  cd my-folder
+  git clone https://https://github.com/Uchenna-ibute/Leaderboard.git
+  cd Leaderboard
+```
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  npm install
 ```
---->
-
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm run start
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+npm tests
 ```
---->
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using:[Github pages](https://docs.github.com/en/pages) or any hosting service of your choice.
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,11 +148,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Use API** ('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/wsIOxR0bKz1yTE4Uisg5/scores/)
+- [ ] **Mobile page and desktop page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,21 +183,6 @@ If you like this project, please provide a STAR in
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
